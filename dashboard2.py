@@ -10,8 +10,8 @@ from streamlit_folium import st_folium
 sns.set(style="whitegrid")
 
 # Load dataset
-day_data = pd.read_csv('data/day.csv')  
-hour_data = pd.read_csv('data/hour.csv')  
+day_data = pd.read_csv('day.csv')  
+hour_data = pd.read_csv('hour.csv')  
 
 # Judul Dashboard
 st.title("Dashboard Penggunaan Bike-Sharing")
